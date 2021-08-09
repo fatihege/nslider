@@ -176,5 +176,3 @@ function NSlider(opts) {
         changeSlider();
     });
 }
-
-addEventListener('resize',function(){sliderWrapperWidth=slider.getBoundingClientRect().width*slides.length;perSlideWidth=sliderWrapperWidth/slides.length;sliderWrapper.style.minWidth=sliderWrapperWidth+'px';sliderWrapper.style.width=sliderWrapperWidth+'px';sliderWrapper.style.maxWidth=sliderWrapperWidth+'px';sliderWrapper.style.height=slider.getBoundingClientRect().height+'px';slides.forEach(function(slide){slide.style.width=perSlideWidth+'px';});currentSlide=0;changeSlider();});
