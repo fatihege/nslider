@@ -1,7 +1,3 @@
-![NSlider Logo](https://imgupload.io/images/2021/06/28/nslider.png)
-
----
-
 # NSlider
 NSlider is a lightweight (< 10 KB), modern and customizable JavaScript slider library.
 
@@ -84,7 +80,3 @@ NSlider is a lightweight (< 10 KB), modern and customizable JavaScript slider li
 </body>
 </html>
 ```
-
-The result of this example:
-
-![Example Result](https://imgupload.io/images/2021/06/28/image97cdc48ac9b970ee.png)
